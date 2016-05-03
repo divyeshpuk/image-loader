@@ -1,0 +1,22 @@
+.nature {
+	background-repeat: no-repeat;
+	width: 1600px;
+	height: 900px;
+}
+.nature.desktop {
+	background-image: url(images/nature-desktop.jpg);
+}
+@media screen and (max-width: 840px) {
+	.nature.tablet {
+		width: 800px;
+		height: 450px;
+		background-image: url(images/nature-tablet.jpg);
+	}
+}
+@media screen and (max-width: 767px) {
+	.nature.mobile {
+		width: 400px;
+		height: 225px;
+		background-image: url(images/nature-mobile.jpg);
+	}
+}
